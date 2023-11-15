@@ -9,6 +9,7 @@
     grid-template-columns: repeat(auto-fit,38rem);
     position: relative;
     height: min-content;
+    z-index: 2;
 }
 .footer::before,
 .footer::after{

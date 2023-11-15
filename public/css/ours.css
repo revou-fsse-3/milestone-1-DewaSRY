@@ -28,20 +28,21 @@ color: white;
     grid-template-columns: repeat(3, 38rem);
     overflow-x: auto;
     margin: 0 4rem ;
-    scroll-snap-type: x mandatory;
     height:38rem ;
+    scroll-snap-type: X proximity;
 
 }
 .cards::-webkit-scrollbar {
     width: 0;
+
 }
 .cards::-webkit-scrollbar-track {
-    border-radius: 10px;
+    /* border-radius: 10px; */
     background-color: transparent;
   }
   
 .ours-cards{
-    scroll-snap-align: start;
+    scroll-snap-align: center;
     height: 35rem;
     width: 30rem;
     display: flex;

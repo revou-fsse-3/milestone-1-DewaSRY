@@ -3,12 +3,37 @@
 .footer{
     background: var(--three);
     color: white;
-    padding: 5rem 3rem 3rem;
+    padding: 10rem 3rem ;
 
     display: grid;
     grid-template-columns: repeat(auto-fit,38rem);
+    position: relative;
+    height: min-content;
 }
+.footer::before,
+.footer::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    background-color: white;
+    right: 0;
 
+}
+.footer::after{
+    width: 90%;
+
+    top: 5%;
+
+}
+.footer::before{
+    width: 100%;
+    bottom: 2%;
+}
+.copy-right{
+    position: absolute;
+    left: 1rem;
+    bottom: 10%;
+}
 .footer-cards{
     width: 38rem;
     height: 20rem;

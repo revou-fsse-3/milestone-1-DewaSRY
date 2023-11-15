@@ -39,19 +39,22 @@
   }
 :root{
     --primary:#F8FD4E;
-    --second:#83BACB;
+    --second:hsl(194, 41%, 65%);
     --three:#1A3740;
 
     font-size: 10px;
     line-height: 1.5;
 
     --card-bg:rgba(255,255,255,0.1);
+    --navigation-bg:rgba(129, 185, 202,0.4);
+    scroll-behavior: smooth;
 }
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 
 h1{
     font-size: 5.2rem;

@@ -20,7 +20,6 @@ top: 0.5rem;
 left: 50%;
 transform: translateX(-50%);
 color: white;
-width: 100%;
 
 }
 
@@ -30,7 +29,7 @@ width: 100%;
     overflow-x: auto;
     margin: 0 4rem ;
     scroll-snap-type: x mandatory;
-    height:38rem ;
+    /* height:38rem ; */
 
 }
 .cards::-webkit-scrollbar {
@@ -71,9 +70,14 @@ width: 100%;
        width: 60rem;
     }
 }
-@media screen  and (min-width:800px) {
+@media screen  and (min-width:1200px) {
     .cards{
       margin: 0;
+      height: 38rem;
+
+    }
+    .ours{
+    padding: 18rem 1rem 0rem;
 
     }
     .ours-cards:last-of-type{

@@ -1,0 +1,62 @@
+
+.hero{
+    background-color: var(--second);
+   height: 60rem;
+    padding-top: 10rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.cute-girl-one{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.hero-text{
+    z-index: 2;
+    width: 40rem;
+    
+}
+
+.hero-text p{
+    color: white;
+}
+.hero-btn-one,
+.hero-btn-two{
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    color: white;
+    font-style: Roboto;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 1rem 0.5rem;
+    
+
+}
+.hero-btn-one{
+    border: none;
+    background-color: var(--primary);
+    transition:  background-color 300ms ease-in-out;
+    border:  solid 3px transparent;
+}
+.hero-btn-one:hover{
+    background-color: transparent;
+
+    border:  solid 3px var(--primary);
+    color: black;
+
+}
+.hero-btn-two{
+    background-color: transparent;
+    transition:  background-color 300ms ease-in-out;
+    border:  solid 3px var(--primary);
+
+}
+.hero-btn-two:hover{
+    border: solid 3px transparent;
+    background-color: var(--primary);
+    color: black;
+
+
+}

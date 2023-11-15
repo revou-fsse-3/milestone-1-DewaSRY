@@ -1,0 +1,26 @@
+
+
+.footer{
+    background: var(--three);
+    color: white;
+    padding: 5rem 3rem 3rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,38rem);
+}
+
+.footer-cards{
+    width: 38rem;
+    height: 20rem;
+
+}
+
+.footer-cards h3{
+    font-size: 1.4rem;
+    margin: 1rem 0 2rem;
+}
+.footer-cards li{
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+    margin-left: 2rem;
+}

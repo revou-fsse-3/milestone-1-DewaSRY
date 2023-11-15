@@ -1,7 +1,6 @@
 .vision{
     background-color: var(--second);
     position: relative;
-    /* height: 100rem; */
     padding-top: 15rem;
     padding-bottom: 20rem;
     display: grid;
@@ -59,5 +58,29 @@
     }
     .vision>img:last-child{
         left: 50%;
+    }
+}
+@media screen and (min-width:1200px) {
+    .vision{
+        padding-top: 30rem;
+        padding-bottom: 0;
+        row-gap: 0;
+    }
+    .vision>img:first-child{
+        width: 60rem;
+    }
+    .vision-card:first-of-type{
+        grid-column: 1/3;
+        grid-row: 1/2;
+
+    }
+    .vision-card:last-of-type{
+        grid-column: 1/3;
+        grid-row: 2/3;
+
+    }
+    .vision>img:last-child{
+        left: 0;
+        bottom: -35rem;
     }
 }

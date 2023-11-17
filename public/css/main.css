@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Martel';
-    font-style: normal;
+    font-style: italic;
     font-weight: 400;
     src: url(/public/font/Martel.woff2) format('woff2');
     unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
@@ -57,10 +57,11 @@
 
 
 h1{
-    font-size: 5.2rem;
+    font-size: 3.2rem;
     font-family:Martel ;
     font-weight: bold;
     color: var(--three);
+    
 }
 h2,h3,li
 {
@@ -85,6 +86,9 @@ a{
     text-decoration: none
 
 }
+ul {
+    list-style: "😎 ";
+  }
 main{
     max-width:2400px ;
     margin:  auto;
@@ -100,6 +104,12 @@ main{
 
 }
 @media screen and (min-width:1200px) {
+    h1{
+        font-size: 5.2rem;
+    }
+
+
+
     main{
     grid-template-rows: repeat(6,35rem);
         

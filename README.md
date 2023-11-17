@@ -76,3 +76,17 @@ on the first place ai generate the hard part of thinking process, which write th
 
 
 ![alt text](/images/deploy-five.png "figma page")
+
+
+## make this app yours
+
+ if you want make this app your's there is two way to do it. either you frok this repository or you dowenlad it as a zip file
+
+![alt text](/images/save-one.png "figma page")
+
+![alt text](/images/save-two.png "figma page")
+
+
+then after the file already on your own machine you just need to run the live server or drag the html to the browser window
+
+![alt text](/images/save-three.png "figma page")

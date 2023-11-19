@@ -1,52 +1,47 @@
+.footer {
+  background: var(--three);
+  color: white;
+  padding: 10rem 3rem;
 
-
-.footer{
-    background: var(--three);
-    color: white;
-    padding: 10rem 3rem ;
-
-    display: grid;
-    grid-template-columns: repeat(auto-fit,38rem);
-    position: relative;
-    height: min-content;
-    z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 30rem);
+  position: relative;
+  height: min-content;
+  z-index: 2;
 }
 .footer::before,
-.footer::after{
-    position: absolute;
-    content: "";
-    height: 3px;
-    background-color: white;
-    right: 0;
-
+.footer::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  background-color: white;
+  right: 0;
 }
-.footer::after{
-    width: 90%;
+.footer::after {
+  width: 90%;
 
-    top: 5%;
-
+  top: 5%;
 }
-.footer::before{
-    width: 100%;
-    bottom: 2%;
+.footer::before {
+  width: 100%;
+  bottom: 2%;
 }
-.copy-right{
-    position: absolute;
-    left: 1rem;
-    bottom: 10%;
+.copy-right {
+  position: absolute;
+  left: 1rem;
+  bottom: 10%;
 }
-.footer-cards{
-    width: 38rem;
-    height: 20rem;
-
+.footer-cards {
+  min-width: 30rem;
+  height: 20rem;
 }
 
-.footer-cards h3{
-    font-size: 1.4rem;
-    margin: 1rem 0 2rem;
+.footer-cards h3 {
+  font-size: 1.4rem;
+  margin: 1rem 0 2rem;
 }
-.footer-cards li{
-    line-height: 1.8rem;
-    font-size: 1.4rem;
-    margin-left: 2rem;
+.footer-cards li {
+  line-height: 1.8rem;
+  font-size: 1.4rem;
+  margin-left: 2rem;
 }
